@@ -4,8 +4,8 @@ Nav object to convert an an `ol` or `ul` into a horizontal, un-styled list for
 building UI components.
 
 ## Installation
-  * [Bower](http://bower.io): `bower install Archetype-o-nav`
-  * Git: `git clone https://github.com/Archetype-CSS/o-nav.git`
+  * [Bower](http://bower.io): {{coming soon}}
+  * Git: `git clone https://github.com/Archetype-CSS/Archetype-o-nav.git`
 
 ## Use
   * `nav` - object styles for navigation components 
