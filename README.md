@@ -1,4 +1,4 @@
-# o-nav [![Build Status](https://secure.travis-ci.org/Archetype-CSS/Archetype-o-nav.png?branch=master)](http://travis-ci.org/Archetype-CSS/Archetype-o-nav) [![Dependency Status](https://gemnasium.com/Archetype-CSS/Archetype-o-nav.svg)](https://gemnasium.com/Archetype-CSS/Archetype-o-nav) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Archetype-o-nav [![Build Status](https://secure.travis-ci.org/Archetype-CSS/Archetype-o-nav.png?branch=master)](http://travis-ci.org/Archetype-CSS/Archetype-o-nav) [![Dependency Status](https://gemnasium.com/Archetype-CSS/Archetype-o-nav.svg)](https://gemnasium.com/Archetype-CSS/Archetype-o-nav) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Nav object to convert an an `ol` or `ul` into a horizontal, un-styled list for
 building UI components.
