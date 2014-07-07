@@ -8,5 +8,8 @@
     "CHANGELOG.md",
     "package.json",
     "/test"
-  ]
+  ],
+  "dependencies": {
+    "Archetype-u-clearfix": "v0.1.0" 
+  }
 }
