@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### 0.1.2 (July 7, 2014)
+
+* Bug fixes
+
 ### 0.1.1 (July 7, 2014)
 
 * Minor cleanup and bower release
