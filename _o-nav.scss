@@ -8,7 +8,7 @@
   list-style: none;
   margin-left: 0;
   padding-left: 0;
-  @extend %cf;
+  @extend %u-cf;
   & > li{
     &,
     & > a{
@@ -17,6 +17,7 @@
   }
 }
 
+/*** @export "Archetype-o-nav--sub-objects" css */
 /**
  * Nav Sub-Objects
  *
@@ -25,7 +26,7 @@
  * https://github.com/csswizardry/inuit.css/blob/master/objects/_nav.scss 
  */
 
-
+/*** @export "Archetype-o-nav--vertical-navigation" css */
 /**
  * Vertical Navigation
  */
@@ -36,7 +37,7 @@
   }
 }
 
-
+/*** @export "Archetype-o-nav--vertical-navigation--full-nav" css */
 /**
  * Full Nav
  */
@@ -51,7 +52,7 @@
   }
 }
 
-
+/*** @export "Archetype-o-nav--vertical-navigation--block-nav" css */
 /**
  * Block Nav
  */
@@ -64,7 +65,7 @@
   }
 }
 
-
+/*** @export "Archetype-o-nav--vertical-navigation--center-nav" css */
 /**
  * Center Nav
  */
