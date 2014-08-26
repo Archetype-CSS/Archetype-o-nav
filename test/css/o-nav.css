@@ -1,0 +1,134 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+/*** @export "Archetype-u-layout" css */
+/**
+ * Archetype Layout Utilities 
+ *
+ * taken largely from: https://github.com/suitcss/utils-layout
+ */
+/*** @export "Archetype-u-layout--cf" css */
+/**
+ * Modern Clearfix - Contain floats
+ *
+ * Make an element expand to contain floated children.
+ * Uses pseudo-elements (micro clearfix).
+ *
+ * see compass docs for legacy clearfix options
+ *
+ * no legacy support, but works well for modern browsers and border-box
+ * http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ *
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of the
+ *    element.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 28, ../../bower_components/Archetype-u-layout/_u-layout.scss */
+.nav:after {
+  content: "";
+  /* 1 */
+  display: table;
+  /* 2 */
+  clear: both;
+}
+
+/*** @export "Archetype-u-layout--nbfc" css */
+/**
+ * New block formatting context
+ *
+ * This affords some useful properties to the element. It won't wrap under
+ * floats. Will also contain any floated children.
+
+ * N.B. This will clip overflow. Use the alternative method below if this is
+ * problematic.
+ */
+/**
+ * New block formatting context (alternative)
+ *
+ * Alternative method when overflow must not be clipped.
+ *
+ * 1. Create a new block formatting context (NBFC).
+ * 2. Avoid shrink-wrap behaviour of table-cell.
+ *
+ * N.B. This breaks down in some browsers when elements within this element
+ * exceed its width.
+ */
+/**
+ * Floats
+ */
+/*** @export "Archetype-o-nav" css */
+/**
+ * Nav Object
+ *
+ * csswizardry.com/2011/09/the-nav-abstraction
+ */
+/* line 7, ../../_o-nav.scss */
+.nav {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 13, ../../_o-nav.scss */
+.nav > li, .nav > li > a {
+  display: inline-block;
+}
+
+/**
+ * Nav Sub-Objects
+ *
+ * Extend the Nav-Object
+ *
+ * https://github.com/csswizardry/inuit.css/blob/master/objects/_nav.scss 
+ */
+/**
+ * Vertical Navigation
+ */
+/* line 33, ../../_o-nav.scss */
+.nav__vertical > li {
+  display: list-item;
+}
+/* line 35, ../../_o-nav.scss */
+.nav__vertical > li > a {
+  display: block;
+}
+
+/**
+ * Full Nav
+ */
+/* line 43, ../../_o-nav.scss */
+.nav__full {
+  display: table;
+  width: 100%;
+}
+/* line 46, ../../_o-nav.scss */
+.nav__full > li {
+  display: table-cell;
+}
+/* line 48, ../../_o-nav.scss */
+.nav__full > li > a {
+  display: block;
+}
+
+/**
+ * Block Nav
+ */
+/* line 59, ../../_o-nav.scss */
+.nav__block > li {
+  display: block;
+}
+/* line 61, ../../_o-nav.scss */
+.nav__block > li > a {
+  display: block;
+}
+
+/**
+ * Center Nav
+ */
+/* line 71, ../../_o-nav.scss */
+.nav__center {
+  text-align: center;
+}
