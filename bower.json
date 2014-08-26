@@ -1,6 +1,6 @@
 {
   "name": "Archetype-o-nav",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "author": "Sam Ashley",
   "main": "_o-nav.scss",
   "ignore": [
@@ -10,6 +10,6 @@
     "/test"
   ],
   "dependencies": {
-    "Archetype-u-clearfix": "v0.1.1" 
+    "Archetype-u-layout": "v0.1.1" 
   }
 }
