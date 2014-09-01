@@ -28,7 +28,7 @@
  *    `:before` to contain the top-margins of child elements.
  */
 /* line 28, ../../bower_components/Archetype-u-layout/_u-layout.scss */
-.nav:after {
+.o-nav:after {
   content: "";
   /* 1 */
   display: table;
@@ -67,16 +67,17 @@
  * csswizardry.com/2011/09/the-nav-abstraction
  */
 /* line 7, ../../_o-nav.scss */
-.nav {
+.o-nav {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 /* line 13, ../../_o-nav.scss */
-.nav > li, .nav > li > a {
+.o-nav > li, .o-nav > li > a {
   display: inline-block;
 }
 
+/*** @export "Archetype-o-nav--sub-objects" css */
 /**
  * Nav Sub-Objects
  *
@@ -84,51 +85,55 @@
  *
  * https://github.com/csswizardry/inuit.css/blob/master/objects/_nav.scss 
  */
+/*** @export "Archetype-o-nav--vertical-navigation" css */
 /**
  * Vertical Navigation
  */
-/* line 33, ../../_o-nav.scss */
-.nav__vertical > li {
+/* line 34, ../../_o-nav.scss */
+.o-nav__vertical > li {
   display: list-item;
 }
-/* line 35, ../../_o-nav.scss */
-.nav__vertical > li > a {
+/* line 36, ../../_o-nav.scss */
+.o-nav__vertical > li > a {
   display: block;
 }
 
+/*** @export "Archetype-o-nav--full-nav" css */
 /**
  * Full Nav
  */
-/* line 43, ../../_o-nav.scss */
-.nav__full {
+/* line 44, ../../_o-nav.scss */
+.o-nav__full {
   display: table;
   width: 100%;
 }
-/* line 46, ../../_o-nav.scss */
-.nav__full > li {
+/* line 47, ../../_o-nav.scss */
+.o-nav__full > li {
   display: table-cell;
 }
-/* line 48, ../../_o-nav.scss */
-.nav__full > li > a {
+/* line 49, ../../_o-nav.scss */
+.o-nav__full > li > a {
   display: block;
 }
 
+/*** @export "Archetype-o-nav--block-nav" css */
 /**
  * Block Nav
  */
-/* line 59, ../../_o-nav.scss */
-.nav__block > li {
+/* line 60, ../../_o-nav.scss */
+.o-nav__block > li {
   display: block;
 }
-/* line 61, ../../_o-nav.scss */
-.nav__block > li > a {
+/* line 62, ../../_o-nav.scss */
+.o-nav__block > li > a {
   display: block;
 }
 
+/*** @export "Archetype-o-nav--center-nav" css */
 /**
  * Center Nav
  */
-/* line 71, ../../_o-nav.scss */
-.nav__center {
+/* line 72, ../../_o-nav.scss */
+.o-nav__center {
   text-align: center;
 }
