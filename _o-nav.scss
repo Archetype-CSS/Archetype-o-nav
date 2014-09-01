@@ -4,14 +4,14 @@
  *
  * csswizardry.com/2011/09/the-nav-abstraction
  */
-.nav {
+.o-nav {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
   @extend %u-cf;
-  & > li{
+  & > li {
     &,
-    & > a{
+    & > a {
       display:inline-block;
     }
   }
@@ -30,7 +30,7 @@
 /**
  * Vertical Navigation
  */
-.nav__vertical {
+.o-nav__vertical {
   & > li { 
     display: list-item;
     & > a { display: block; } 
@@ -41,7 +41,7 @@
 /**
  * Full Nav
  */
-.nav__full {
+.o-nav__full {
   display: table;
   width: 100%;
   & > li {
@@ -56,7 +56,7 @@
 /**
  * Block Nav
  */
-.nav__block {
+.o-nav__block {
   & > li {
     display: block;
     & > a {
@@ -69,7 +69,7 @@
 /**
  * Center Nav
  */
-.nav__center {
+.o-nav__center {
   text-align: center;
 }
 
